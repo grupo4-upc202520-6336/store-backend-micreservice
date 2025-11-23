@@ -11,11 +11,11 @@
     <groupId>com.agrocontrol</groupId>
 
     <!-- CAMBIO: Dale a cada servicio su propio artifactId -->
-    <artifactId>profile-service</artifactId>
+    <artifactId>store-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <!-- CAMBIO: Dale a cada servicio su propio nombre -->
-    <name>profile-service</name>
+    <name>store-service</name>
     <description>Servicio para manejar perfiles de productores y distribuidores</description>
 
     <properties>
