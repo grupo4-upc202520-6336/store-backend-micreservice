@@ -33,7 +33,7 @@ public class Product extends AuditableAbstractAggregateRoot<Product> {
 
     public Product(CreateProductCommand command) {
         this.userId = command.userId();
-        this.previousId = 0L;
+        this.previousId = null;
         this.name = command.name();
         this.quantityPerUnit = command.quantityPerUnit();
         this.unitPrice = command.unitPrice();
